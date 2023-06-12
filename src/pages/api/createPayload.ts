@@ -24,6 +24,5 @@ export default async function handler(
   const created: XummTypes.XummPostPayloadResponse =
     await xummSdk.payload.create(newPayload);
   const payload: XummPayload = await xummSdk.payload.get(created);
-  const resti = res.status(200).json(payload.meta.uuid);
-  return resti;
+  return res.status(200).json(payload);
 }
