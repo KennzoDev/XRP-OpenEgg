@@ -189,7 +189,7 @@ Provide guidelines for contributing to your project. Explain how others can subm
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). Make sure to include the appropriate license file.
+This project is licensed under the [License](LICENSE). Make sure to include the appropriate license file.
 
 ## Contact
 
